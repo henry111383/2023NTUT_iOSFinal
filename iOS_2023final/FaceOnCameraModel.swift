@@ -81,6 +81,7 @@ class FaceOnCameraModel: NSObject, ObservableObject, AVCapturePhotoCaptureDelega
                     }
                     for observation in results {
                         self.FaceHeight = (observation.boundingBox.midX)
+                        self.FaceX = (1 - observation.boundingBox.midY)
 //                        print(UIScreen.main.bounds.height*self.FaceHeight)
                         
                     }

@@ -3,22 +3,68 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C309C242A37B05200878F87 /* FaceOnCameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C309C232A37B05200878F87 /* FaceOnCameraModel.swift */; };
+		0C309C282A37B5A700878F87 /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C309C272A37B5A700878F87 /* Vision.framework */; };
+		0C309C2A2A37C0B800878F87 /* PushUpCameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C309C292A37C0B800878F87 /* PushUpCameraModel.swift */; };
+		0C46BC332A39D0D400FE6B29 /* PushUpBoundPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C46BC322A39D0D400FE6B29 /* PushUpBoundPathView.swift */; };
 		0C4B763B2A29C01F009521D9 /* iOS_2023finalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4B763A2A29C01F009521D9 /* iOS_2023finalApp.swift */; };
 		0C4B763D2A29C01F009521D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4B763C2A29C01F009521D9 /* ContentView.swift */; };
 		0C4B763F2A29C020009521D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C4B763E2A29C020009521D9 /* Assets.xcassets */; };
 		0C4B76422A29C020009521D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C4B76412A29C020009521D9 /* Preview Assets.xcassets */; };
+		0C4B76492A29C081009521D9 /* FaceOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4B76482A29C081009521D9 /* FaceOn.swift */; };
+		0CA46F032A3B214A003D3E6A /* PlayPushUpButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA46F022A3B214A003D3E6A /* PlayPushUpButtonView.swift */; };
+		0CA46F052A3B261B003D3E6A /* PlayFaceOnButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA46F042A3B261B003D3E6A /* PlayFaceOnButtonView.swift */; };
+		0CB28F732A3DEDAC00C0532D /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB28F722A3DEDAC00C0532D /* SettingView.swift */; };
+		0CB28F772A3F70B600C0532D /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB28F762A3F70B600C0532D /* AudioPlayer.swift */; };
+		0CB28F792A3F74C500C0532D /* HereItComes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0CB28F782A3F74C500C0532D /* HereItComes.mp3 */; };
+		0CB28F7C2A3F760100C0532D /* MainGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB28F7B2A3F760100C0532D /* MainGameView.swift */; };
+		0CB28F7E2A3F769800C0532D /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB28F7D2A3F769800C0532D /* LogInView.swift */; };
+		0CB28F812A3F7E0A00C0532D /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CB28F802A3F7E0A00C0532D /* crayon_1-1.ttf */; };
+		0CB28F852A3F8D3600C0532D /* HistoryScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB28F842A3F8D3600C0532D /* HistoryScoreView.swift */; };
+		0CB28F872A3F8E0B00C0532D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CB28F862A3F8E0B00C0532D /* GoogleService-Info.plist */; };
+		0CB28F8A2A3F8EB400C0532D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0CB28F892A3F8EB400C0532D /* FirebaseAuth */; };
+		0CB28F8C2A3F8EB400C0532D /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0CB28F8B2A3F8EB400C0532D /* FirebaseFirestoreSwift */; };
+		0CB28F8E2A3F8EB400C0532D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0CB28F8D2A3F8EB400C0532D /* FirebaseStorage */; };
+		0CB28F902A3F960C00C0532D /* HistoryScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB28F8F2A3F960C00C0532D /* HistoryScore.swift */; };
+		0CB28F922A3F986E00C0532D /* HistoryScoreRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB28F912A3F986E00C0532D /* HistoryScoreRow.swift */; };
+		0CB28F942A3FA19D00C0532D /* UpdateScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB28F932A3FA19D00C0532D /* UpdateScore.swift */; };
+		0CB28F962A3FA80800C0532D /* FaceHunterAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB28F952A3FA80800C0532D /* FaceHunterAppIcon.png */; };
+		0CD03D602A3A3C93004585B7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C309C1E2A3793F800878F87 /* AVFoundation.framework */; };
+		0CD03D622A3A3F12004585B7 /* PushUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD03D612A3A3F12004585B7 /* PushUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C309C1E2A3793F800878F87 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0C309C202A37966600878F87 /* iOS-2023final-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "iOS-2023final-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0C309C232A37B05200878F87 /* FaceOnCameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceOnCameraModel.swift; sourceTree = "<group>"; };
+		0C309C272A37B5A700878F87 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
+		0C309C292A37C0B800878F87 /* PushUpCameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushUpCameraModel.swift; sourceTree = "<group>"; };
+		0C46BC322A39D0D400FE6B29 /* PushUpBoundPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushUpBoundPathView.swift; sourceTree = "<group>"; };
 		0C4B76372A29C01F009521D9 /* iOS_2023final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_2023final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C4B763A2A29C01F009521D9 /* iOS_2023finalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_2023finalApp.swift; sourceTree = "<group>"; };
 		0C4B763C2A29C01F009521D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0C4B763E2A29C020009521D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C4B76412A29C020009521D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C4B76482A29C081009521D9 /* FaceOn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceOn.swift; sourceTree = "<group>"; };
+		0CA46F022A3B214A003D3E6A /* PlayPushUpButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPushUpButtonView.swift; sourceTree = "<group>"; };
+		0CA46F042A3B261B003D3E6A /* PlayFaceOnButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayFaceOnButtonView.swift; sourceTree = "<group>"; };
+		0CB28F722A3DEDAC00C0532D /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		0CB28F762A3F70B600C0532D /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		0CB28F782A3F74C500C0532D /* HereItComes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = HereItComes.mp3; path = ../../../../Downloads/HereItComes.mp3; sourceTree = "<group>"; };
+		0CB28F7B2A3F760100C0532D /* MainGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameView.swift; sourceTree = "<group>"; };
+		0CB28F7D2A3F769800C0532D /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		0CB28F802A3F7E0A00C0532D /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "crayon_1-1.ttf"; path = "../../../../Downloads/crayonfont/crayon_1-1.ttf"; sourceTree = "<group>"; };
+		0CB28F842A3F8D3600C0532D /* HistoryScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScoreView.swift; sourceTree = "<group>"; };
+		0CB28F862A3F8E0B00C0532D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0CB28F8F2A3F960C00C0532D /* HistoryScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScore.swift; sourceTree = "<group>"; };
+		0CB28F912A3F986E00C0532D /* HistoryScoreRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScoreRow.swift; sourceTree = "<group>"; };
+		0CB28F932A3FA19D00C0532D /* UpdateScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateScore.swift; sourceTree = "<group>"; };
+		0CB28F952A3FA80800C0532D /* FaceHunterAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FaceHunterAppIcon.png; sourceTree = "<group>"; };
+		0CD03D612A3A3F12004585B7 /* PushUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +72,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CD03D602A3A3C93004585B7 /* AVFoundation.framework in Frameworks */,
+				0CB28F8A2A3F8EB400C0532D /* FirebaseAuth in Frameworks */,
+				0C309C282A37B5A700878F87 /* Vision.framework in Frameworks */,
+				0CB28F8E2A3F8EB400C0532D /* FirebaseStorage in Frameworks */,
+				0CB28F8C2A3F8EB400C0532D /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C309C1D2A3793F700878F87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C309C272A37B5A700878F87 /* Vision.framework */,
+				0C309C1E2A3793F800878F87 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0C4B762E2A29C01F009521D9 = {
 			isa = PBXGroup;
 			children = (
 				0C4B76392A29C01F009521D9 /* iOS_2023final */,
 				0C4B76382A29C01F009521D9 /* Products */,
+				0C309C1D2A3793F700878F87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +112,30 @@
 		0C4B76392A29C01F009521D9 /* iOS_2023final */ = {
 			isa = PBXGroup;
 			children = (
+				0C309C202A37966600878F87 /* iOS-2023final-Info.plist */,
 				0C4B763A2A29C01F009521D9 /* iOS_2023finalApp.swift */,
+				0C4B76482A29C081009521D9 /* FaceOn.swift */,
 				0C4B763C2A29C01F009521D9 /* ContentView.swift */,
 				0C4B763E2A29C020009521D9 /* Assets.xcassets */,
 				0C4B76402A29C020009521D9 /* Preview Content */,
+				0C309C232A37B05200878F87 /* FaceOnCameraModel.swift */,
+				0C309C292A37C0B800878F87 /* PushUpCameraModel.swift */,
+				0C46BC322A39D0D400FE6B29 /* PushUpBoundPathView.swift */,
+				0CD03D612A3A3F12004585B7 /* PushUp.swift */,
+				0CA46F022A3B214A003D3E6A /* PlayPushUpButtonView.swift */,
+				0CA46F042A3B261B003D3E6A /* PlayFaceOnButtonView.swift */,
+				0CB28F722A3DEDAC00C0532D /* SettingView.swift */,
+				0CB28F762A3F70B600C0532D /* AudioPlayer.swift */,
+				0CB28F782A3F74C500C0532D /* HereItComes.mp3 */,
+				0CB28F952A3FA80800C0532D /* FaceHunterAppIcon.png */,
+				0CB28F802A3F7E0A00C0532D /* crayon_1-1.ttf */,
+				0CB28F7B2A3F760100C0532D /* MainGameView.swift */,
+				0CB28F7D2A3F769800C0532D /* LogInView.swift */,
+				0CB28F842A3F8D3600C0532D /* HistoryScoreView.swift */,
+				0CB28F862A3F8E0B00C0532D /* GoogleService-Info.plist */,
+				0CB28F8F2A3F960C00C0532D /* HistoryScore.swift */,
+				0CB28F912A3F986E00C0532D /* HistoryScoreRow.swift */,
+				0CB28F932A3FA19D00C0532D /* UpdateScore.swift */,
 			);
 			path = iOS_2023final;
 			sourceTree = "<group>";
@@ -83,6 +164,11 @@
 			dependencies = (
 			);
 			name = iOS_2023final;
+			packageProductDependencies = (
+				0CB28F892A3F8EB400C0532D /* FirebaseAuth */,
+				0CB28F8B2A3F8EB400C0532D /* FirebaseFirestoreSwift */,
+				0CB28F8D2A3F8EB400C0532D /* FirebaseStorage */,
+			);
 			productName = iOS_2023final;
 			productReference = 0C4B76372A29C01F009521D9 /* iOS_2023final.app */;
 			productType = "com.apple.product-type.application";
@@ -103,7 +189,7 @@
 				};
 			};
 			buildConfigurationList = 0C4B76322A29C01F009521D9 /* Build configuration list for PBXProject "iOS_2023final" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,6 +197,9 @@
 				Base,
 			);
 			mainGroup = 0C4B762E2A29C01F009521D9;
+			packageReferences = (
+				0CB28F882A3F8EB400C0532D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 0C4B76382A29C01F009521D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +214,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CB28F812A3F7E0A00C0532D /* crayon_1-1.ttf in Resources */,
+				0CB28F962A3FA80800C0532D /* FaceHunterAppIcon.png in Resources */,
 				0C4B76422A29C020009521D9 /* Preview Assets.xcassets in Resources */,
+				0CB28F872A3F8E0B00C0532D /* GoogleService-Info.plist in Resources */,
 				0C4B763F2A29C020009521D9 /* Assets.xcassets in Resources */,
+				0CB28F792A3F74C500C0532D /* HereItComes.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +230,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CB28F852A3F8D3600C0532D /* HistoryScoreView.swift in Sources */,
 				0C4B763D2A29C01F009521D9 /* ContentView.swift in Sources */,
+				0CB28F732A3DEDAC00C0532D /* SettingView.swift in Sources */,
+				0CB28F772A3F70B600C0532D /* AudioPlayer.swift in Sources */,
+				0C4B76492A29C081009521D9 /* FaceOn.swift in Sources */,
+				0CB28F942A3FA19D00C0532D /* UpdateScore.swift in Sources */,
+				0CA46F052A3B261B003D3E6A /* PlayFaceOnButtonView.swift in Sources */,
+				0CB28F922A3F986E00C0532D /* HistoryScoreRow.swift in Sources */,
+				0C309C242A37B05200878F87 /* FaceOnCameraModel.swift in Sources */,
+				0C46BC332A39D0D400FE6B29 /* PushUpBoundPathView.swift in Sources */,
+				0CB28F7C2A3F760100C0532D /* MainGameView.swift in Sources */,
+				0CD03D622A3A3F12004585B7 /* PushUp.swift in Sources */,
 				0C4B763B2A29C01F009521D9 /* iOS_2023finalApp.swift in Sources */,
+				0CB28F902A3F960C00C0532D /* HistoryScore.swift in Sources */,
+				0CA46F032A3B214A003D3E6A /* PlayPushUpButtonView.swift in Sources */,
+				0C309C2A2A37C0B800878F87 /* PushUpCameraModel.swift in Sources */,
+				0CB28F7E2A3F769800C0532D /* LogInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +378,9 @@
 				DEVELOPMENT_TEAM = 574FMRSHR6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-2023final-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "此應用程式需要使用您的相機以拍攝照片或錄製視頻，以便進行某些功能。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "要紀錄照片喔！";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +410,9 @@
 				DEVELOPMENT_TEAM = 574FMRSHR6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-2023final-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "此應用程式需要使用您的相機以拍攝照片或錄製視頻，以便進行某些功能。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "要紀錄照片喔！";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +453,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0CB28F882A3F8EB400C0532D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0CB28F892A3F8EB400C0532D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CB28F882A3F8EB400C0532D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		0CB28F8B2A3F8EB400C0532D /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CB28F882A3F8EB400C0532D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		0CB28F8D2A3F8EB400C0532D /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CB28F882A3F8EB400C0532D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0C4B762F2A29C01F009521D9 /* Project object */;
 }

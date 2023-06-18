@@ -1,25 +1,14 @@
-//
-//  ContentView.swift
-//  iOS_2023final
-//
-//  Created by Jing Han on 2023/6/2.
-//
 
 import SwiftUI
+import AVFoundation
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+    var body: some View{
+        LogInView().ignoresSafeArea()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ContentView_Preview: PreviewProvider {
     static var previews: some View {
         ContentView()
     }

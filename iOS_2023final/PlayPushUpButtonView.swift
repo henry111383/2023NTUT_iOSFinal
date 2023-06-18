@@ -7,18 +7,19 @@
 
 import SwiftUI
 
-struct PlayPushUpVButtonView: View {
+struct PlayPushUpButtonView: View {
     var body: some View {
         ZStack{
-            Rectangle()
-                .foregroundColor(Color(red: 0.1, green: 0.8, blue: 0.6))
-                .frame(width: 100, height: 40)
-                .offset(x:-20, y:-110)
-                .rotationEffect(Angle(degrees: -30))
+            
             Rectangle()
                 .foregroundColor(.blue)
                 .frame(width: 200, height: 200)
                 .cornerRadius(20)
+            Rectangle()
+                .foregroundColor(Color(red: 0.1, green: 0.8, blue: 0.6))
+                .frame(width: 50, height: 40)
+                .offset(x:-80, y:-70)
+                .rotationEffect(Angle(degrees: -10))
             Rectangle()
                 .stroke(Color.black, lineWidth: 4)
                             .frame(width: 150, height: 150)
@@ -30,8 +31,11 @@ struct PlayPushUpVButtonView: View {
                     .foregroundColor(Color(red: 0.1, green: 0.8, blue: 0.6))
                     .frame(width: 100, height: 40)
                 Text("PushUp")
-                    .foregroundColor(.red)
-                    .font(.custom("SF Compact", size: 20))
+                    .foregroundColor(.black)
+                    .font(.custom("Nagurigaki Crayon", size: 25))
+                Text("PushUp")
+                    .foregroundColor(.white)
+                    .font(.custom("Nagurigaki Crayon", size: 24))
             }.offset(x:-70, y:-50)
                 
         }
@@ -40,6 +44,6 @@ struct PlayPushUpVButtonView: View {
 
 struct PlayPushUpVButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        PlayPushUpVButtonView()
+        PlayPushUpButtonView()
     }
 }
